@@ -1,0 +1,220 @@
+[
+    {
+      "idcliente": 1,
+      "codigo": 101,
+      "descripcion": "Pan",
+      "preciovta": 18,
+      "preciocompra":15, 
+      "cantidad":100
+    },
+    {
+        "idcliente": 2,
+        "codigo": 102,
+        "descripcion": "Galletitas saladas",
+        "preciovta": 23,
+        "preciocompra":20, 
+        "cantidad":100
+      },
+      {
+        "idcliente": 2,
+        "codigo": 104,
+        "descripcion": "Galletitas dulces",
+        "preciovta": 30.00,
+        "preciocompra":30, 
+        "cantidad":100
+      },
+      
+      {
+        "idcliente": 3,
+        "codigo": 106,
+        "descripcion": "Arroz",
+        "preciovta": 10,
+        "preciocompra":12, 
+        "cantidad":100
+      },
+      {
+        "idcliente": 4,
+        "codigo": 108,
+        "descripcion": "Harina de trigo",
+        "preciovta": 10,
+        "preciocompra":10, 
+        "cantidad":100
+      },
+      {
+        "idcliente": 5,
+        "codigo": 110,
+        "descripcion": "Poleta",
+        "preciovta": 12,
+        "preciocompra":10, 
+        "cantidad":100
+      },
+      {
+        "idcliente": 6,
+        "codigo": 112,
+        "descripcion": "Fideos Guiseros",
+        "preciovta": 10,
+        "preciocompra":10, 
+        "cantidad":100
+      },
+      {
+        "idcliente": 7,
+        "codigo": 114,
+        "descripcion": "Leche",
+        "preciovta": 9,
+        "preciocompra":10, 
+        "cantidad":100
+      },
+      {
+        "idcliente": 8,
+        "codigo": 116,
+        "descripcion": "Dulce de batata",
+        "preciovta": 20,
+        "preciocompra":24, 
+        "cantidad":100
+      },
+      {
+        "idcliente": 9,
+        "codigo": 118,
+        "descripcion": "Dulce de leche",
+        "preciovta": 14,
+        "preciocompra":13, 
+        "cantidad":100
+      },
+      {
+        "idcliente": 10,
+        "codigo": 120,
+        "descripcion": "Mermelada",
+        "preciovta": 12,
+        "preciocompra":13, 
+        "cantidad":100
+      },
+      {
+        "idcliente": 11,
+        "codigo": 122,
+        "descripcion": "Queso fresco",
+        "preciovta": 56,
+        "preciocompra":65, 
+        "cantidad":100
+      },
+      {
+        "idcliente": 12,
+        "codigo": 124,
+        "descripcion": "Queso crema",
+        "preciovta": 46,
+        "preciocompra":66, 
+        "cantidad":100
+      },
+      {
+        "idcliente": 13,
+        "codigo": 126,
+        "descripcion": "Queso curtirolo",
+        "preciovta": 55,
+        "preciocompra":65, 
+        "cantidad":100
+      },
+      {
+        "idcliente": 14,
+        "codigo": 128,
+        "descripcion": "Queso de rallar",
+        "preciovta": 175,
+        "preciocompra":200, 
+        "cantidad":100
+      },
+      {
+        "idcliente": 15,
+        "codigo": 130,
+        "descripcion": "Aceite mezcla",
+        "preciovta": 12,
+        "preciocompra":12, 
+        "cantidad":100
+      },
+      {
+        "idcliente": 16,
+        "codigo": 132,
+        "descripcion": "Sal fina",
+        "preciovta": 6,
+        "preciocompra":5, 
+        "cantidad":100
+      },
+      {
+        "idcliente": 17,
+        "codigo": 134,
+        "descripcion": "Sal gruesa",
+        "preciovta": 8,
+        "preciocompra":6, 
+        "cantidad":100
+      },
+      {
+        "idcliente": 18,
+        "codigo": 136,
+        "descripcion": "Vinagre",
+        "preciovta": 10,
+        "preciocompra":12, 
+        "cantidad":100
+      },
+      {
+        "idcliente": 19,
+        "codigo": 138,
+        "descripcion": "Cafe",
+        "preciovta": 38,
+        "preciocompra":30, 
+        "cantidad":100
+      },
+      {
+        "idcliente": 20,
+        "codigo": 140,
+        "descripcion": "Te",
+        "preciovta": 7,
+        "preciocompra":7, 
+        "cantidad":100
+      },
+      {
+        "idcliente": 21,
+        "codigo": 142,
+        "descripcion": "Yerba",
+        "preciovta": 20,
+        "preciocompra":21, 
+        "cantidad":100
+      },
+      {
+        "idcliente": 22,
+        "codigo": 144,
+        "descripcion": "Lentejas",
+        "preciovta": 13,
+        "preciocompra":16, 
+        "cantidad":100
+      },
+      {
+        "idcliente": 23,
+        "codigo": 146,
+        "descripcion": "Porojos",
+        "preciovta": 11,
+        "preciocompra":24, 
+        "cantidad":100
+      },
+      {
+        "idcliente": 24,
+        "codigo": 148,
+        "descripcion": "Arvejas",
+        "preciovta": 7,
+        "preciocompra":7, 
+        "cantidad":100
+      },
+      {
+        "idcliente": 25,
+        "codigo": 150,
+        "descripcion": "Pure de tomate",
+        "preciovta": 6,
+        "preciocompra":7, 
+        "cantidad":100
+      },
+      {
+        "idcliente": 26,
+        "codigo": 152,
+        "descripcion": "atun en Agua",
+        "preciovta": 25,
+        "preciocompra":19, 
+        "cantidad":100
+      }
+      
+  ]
