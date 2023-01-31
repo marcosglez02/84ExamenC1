@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+    padding: 0 auto;
+    margin: 0 auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#Encabezado{
+    margin: 0 auto;
+    text-align: center;
+    background-color: aquamarine;
+    margin-bottom: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-size: 2em;
+}
+#tot{
+    text-align: end;
+    font-size: 1.3em;
+    margin-right: 5em;
+    margin-top: 1em;
+}
+#piePagina{
+    text-align: center;
+    margin-top: 0.5em;
+    font-size: 1.5em;
+    background-color: darkcyan;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+.impar{
+    background-color: rgb(196, 195, 195);
+}
+
+table,td,th{
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 1.1em;
+}
+table,tr{
+    border:1px solid black;
+}
+table,thead{
+    text-align: center;
+}
+table tr:nth-child(even) {
+    background-color: rgb(19, 219, 219);
+}
+td{
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}

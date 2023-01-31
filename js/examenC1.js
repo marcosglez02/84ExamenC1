@@ -5,22 +5,30 @@ const llamandoFetch=()=>{
     })
     const mostrarDatos=(data)=>{
         let GananciaTotal = 0
+        let diseño = "";
+        let contador = 0;
         let res = document.getElementById('respuesta');
             res.innerHTML = `<thead><tr>
-            <th scope="col" width="5%">Id</th>
-            <th scope="col" width="10%">Id cliente</th>
-            <th scope="col" width="25%">Descripción</th>
-            <th scope="col" width="15%">Cantidad</th>
-            <th scope="col" width="15%">Precio venta</th>
-            <th scope="col" width="15%">Precio Compra</th>
-            <th scope="col" width="15%">Ganancias</th>
+            <th width="5%">Id</th>
+            <th width="10%">Id cliente</th>
+            <th width="25%">Descripción</th>
+            <th width="15%">Cantidad</th>
+            <th width="15%">Precio venta</th>
+            <th width="15%">Precio Compra</th>
+            <th width="15%">Ganancias</th>
             </tr></thead><tbody></tbody>`;
         for(let item of data){
+            contador = contador+1;
+            if(contador %2 === 0){
+                diseño="par"
+            }else{
+                diseño="impar"
+            }
             let Ganancia = 0;
             Ganancia = (item.preciocompra * item.preciovta)*item.cantidad
             GananciaTotal += Ganancia
-            res.innerHTML += `<tr">
-                    <th>${item.codigo}</th>
+            res.innerHTML += `<tr class="${diseño}">
+                    <td>${item.codigo}</td>
                     <td>${item.idcliente}</td>
                     <td>${item.descripcion}</td>
                     <td>${item.cantidad}</td>
